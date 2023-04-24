@@ -30,8 +30,8 @@ class Employee(User):
         else:
             print("The pin or email is incorrect")
 #The following code invokes the methods inside each class for user and employee.
-    customer = User()
-    customer.getLoginInfo()
+customer = User()
+customer.getLoginInfo()
 
-    manager = Employee()
-    manager.getLoginInfo()
+manager = Employee()
+manager.getLoginInfo()
