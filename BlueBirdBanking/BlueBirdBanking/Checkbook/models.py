@@ -6,7 +6,7 @@ class Account(models.Model):
 
     Accounts = models.Manager()
 
-    def str(self):
+    def __str__(self):
         return self.first_name + ' ' + self.last_name
 
 
